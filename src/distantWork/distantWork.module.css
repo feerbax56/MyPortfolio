@@ -1,0 +1,10 @@
+.distantContainer{
+    min-height: 60vw;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    background-color: darkcyan;
+}
