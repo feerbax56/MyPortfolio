@@ -1,5 +1,5 @@
 .skillsBlock {
-    height: 100vw;
+    min-height: 60vw;
     background-color: bisque;
 }
 
@@ -13,7 +13,9 @@
     border: 1px solid red;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .title {

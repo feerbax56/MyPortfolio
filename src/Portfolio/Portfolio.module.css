@@ -1,0 +1,42 @@
+.portfolioBlock {
+    min-height: 60vw;
+    background-color: #89a6a6;
+}
+
+.title {
+    background-color: darkcyan;
+}
+
+.portfolioContainer {
+    /*align-items: flex-start;*/
+    flex-direction: column;
+    justify-content: start;
+}
+
+.portfolio {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 250px;
+    border: 1px solid wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    background-color: #cfea57;
+}
+
+.desckription {
+    color: #572704;
+}
