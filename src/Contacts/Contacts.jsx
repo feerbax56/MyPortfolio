@@ -7,7 +7,7 @@ const Contacts = () => {
             <form action={'url'} className={s.form}>
                 <input type="text" required/>
                 <input type="text" required/>
-                <input type="text" required/>
+                <textarea rows="3"></textarea>
             </form>
             <button>Send!</button>
         </div>
